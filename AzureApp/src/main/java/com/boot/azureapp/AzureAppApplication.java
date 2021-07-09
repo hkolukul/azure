@@ -14,7 +14,7 @@ public class AzureAppApplication {
 	@ResponseBody
 	@GetMapping("/")
 	public String getAll() {
-		return "Hello Hari";	
+		return "Hello Hari.. Welcome to Azure";	
 	}
 
 	public static void main(String[] args) {
